@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/getir.com-react-tailwind/static/css/main.65158009.css",
+    "main.js": "/getir.com-react-tailwind/static/js/main.0c17769c.js",
+    "index.html": "/getir.com-react-tailwind/index.html",
+    "main.65158009.css.map": "/getir.com-react-tailwind/static/css/main.65158009.css.map",
+    "main.0c17769c.js.map": "/getir.com-react-tailwind/static/js/main.0c17769c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65158009.css",
+    "static/js/main.0c17769c.js"
+  ]
+}
