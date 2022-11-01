@@ -11,8 +11,8 @@ const Favourites = () => {
 
   return (
     <div className="container mx-auto">
-      <h3 className="text-sm font-semibold my-3">Favoriler</h3>
-      <div className="grid grid-cols-7 mt-8 gap-1">
+      <h3 className="text-sm font-semibold my-3 px-4 md:px-0">Favoriler</h3>
+      <div className="grid xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 grid-cols-3 mt-8 gap-1">
         {products &&
           products.map((product, index) => (
             <div key={index}>

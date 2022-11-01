@@ -30,9 +30,8 @@ const PrevBtn = (props) => {
 const Campaigns = () => {
   const settings = {
     dots: false,
-    arrows: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     speed: 500,
@@ -40,6 +39,29 @@ const Campaigns = () => {
     cssEase: "linear",
     nextArrow: <NextBtn />,
     prevArrow: <PrevBtn />,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
+    ],
   };
 
   const [banners, SetBanners] = useState([]);
@@ -49,16 +71,18 @@ const Campaigns = () => {
   }, []);
 
   return (
-    <div className="container mx-auto py-8">
-      <h3 className="text-sm font-semibold my-3">Kampanyalar</h3>
-      <Slider className="-mx-2" {...settings}>
+    <div className="container mx-auto md:py-8 ">
+      <h3 className="text-sm font-semibold my-3 hidden px-4 md:px-0 md:block">
+        Kampanyalar
+      </h3>
+      <Slider className="md:-mx-2" {...settings}>
         {banners &&
           banners.map((banner, index) => (
-            <div key={index} className="px-2">
+            <div key={index} className="md:px-2">
               <img
                 src={banner.image}
                 alt={banner.id}
-                className="w-full sm:rounded-lg"
+                className="md:rounded-lg w-full"
               />
             </div>
           ))}

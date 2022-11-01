@@ -2,7 +2,7 @@ const Category = ({ category: { id, title, image } }) => {
   return (
     <a
       href="/#"
-      className="flex flex-col group text-center items-center p-4 whitespace-nowrap gap-y-2 transition rounded hover:bg-purple-100"
+      className="flex flex-col group text-center items-center p-4 md:whitespace-nowrap lg:whitespace-nowrap gap-y-2 transition rounded hover:bg-purple-100"
     >
       <img
         src={image}
