@@ -4,11 +4,11 @@ import { FiGlobe } from "react-icons/fi";
 const Footer = () => {
   return (
     <div className="bg-white pt-10 mt-4">
-      <div className="container mx-auto ">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-4">
-          <section>
+      <div className="container mx-auto px-4 md:px-0">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-8 pt-5 md:pt-10">
+          <section className="text-center md:text-left">
             <h6 className="text-lg text-purple-700 mb-4">Getir'i indirin!</h6>
-            <ul className="grid gap-y-3">
+            <ul className="grid grid-cols-3 md:grid-cols-1 gap-3">
               <li>
                 <a
                   href="/#"
@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
             </ul>
           </section>
-          <section>
+          <section className="text-center md:text-left">
             <h3 className="text-lg text-purple-700 mb-4">Getir'i keşfedin</h3>
             <ul className="grid gap-y-3 text-sm">
               <li>
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
             </ul>
           </section>
-          <section>
+          <section className="text-center md:text-left">
             <h3 className="text-lg text-purple-700 mb-4">
               Yardıma mı ihtiyacınız var?
             </h3>
@@ -106,7 +106,7 @@ const Footer = () => {
               </li>
             </ul>
           </section>
-          <section>
+          <section className="text-center md:text-left">
             <h3 className="text-lg text-purple-700 mb-4">İş Ortağımız Olun</h3>
             <ul className="grid gap-y-3 text-sm">
               <li>
@@ -132,7 +132,7 @@ const Footer = () => {
             </ul>
           </section>
         </div>
-        <div className="flex w-full py-8 flex-row items-center text-sm justify-between">
+        <div className="flex w-full py-8 flex-col md:flex-row items-center text-sm justify-between">
           <div className="flex gap-x-4 text-gray-700">
             &copy; 2021 Getir
             <div>
