@@ -1,6 +1,6 @@
 const MobileApp = () => {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row relative bg-mobile-app bg-primary-brand-color rounded-lg p-12 mt-7 text-white ">
+    <div className="container mx-auto flex flex-col md:flex-row relative bg-mobile-app bg-primary-brand-color lg:rounded-lg p-12 mt-7 text-white ">
       <div className="flex flex-col gap-y-3 items-center md:items-baseline">
         <h3 className="text-3xl tracking-tighter font-bold">
           Getir'i indirin!
