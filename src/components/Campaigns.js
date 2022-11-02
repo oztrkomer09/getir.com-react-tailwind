@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import Banners from "../api/banners.json";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
 
 const NextBtn = (props) => {
   const { onClick } = props;
@@ -72,6 +73,16 @@ const Campaigns = () => {
 
   return (
     <div className="container mx-auto md:py-8 ">
+      <div className="text-sm flex justify-between items-center font-semibold py-2 md:hidden px-2 md:px-0 ">
+        <h3 className="flex items-center">
+          <IoLocationSharp size={18} className="text-brand-color mr-2" />
+          Teslimat Adresi Belirle
+        </h3>
+        <IoIosArrowForward
+          size={18}
+          className="text-brand-color items-center"
+        />
+      </div>
       <h3 className="text-sm font-semibold my-3 hidden px-4 md:px-0 md:block">
         Kampanyalar
       </h3>
