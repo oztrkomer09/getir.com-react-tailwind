@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/getir.com-react-tailwind/static/css/main.19c2bf30.css",
-    "main.js": "/getir.com-react-tailwind/static/js/main.93220538.js",
+    "main.css": "/getir.com-react-tailwind/static/css/main.a06352e9.css",
+    "main.js": "/getir.com-react-tailwind/static/js/main.17626918.js",
     "index.html": "/getir.com-react-tailwind/index.html",
-    "main.19c2bf30.css.map": "/getir.com-react-tailwind/static/css/main.19c2bf30.css.map",
-    "main.93220538.js.map": "/getir.com-react-tailwind/static/js/main.93220538.js.map"
+    "main.a06352e9.css.map": "/getir.com-react-tailwind/static/css/main.a06352e9.css.map",
+    "main.17626918.js.map": "/getir.com-react-tailwind/static/js/main.17626918.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c2bf30.css",
-    "static/js/main.93220538.js"
+    "static/css/main.a06352e9.css",
+    "static/js/main.17626918.js"
   ]
 }
